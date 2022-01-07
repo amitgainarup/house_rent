@@ -39,15 +39,6 @@ class CategoryItem extends StatelessWidget {
                 style: TextStyle(fontSize: 13, color: selected ? Colors.white : darker),
               ),
             ),
-            // Visibility(
-            //     visible: selected,
-            //     child: Container(
-            //       width: double.infinity, height: 2, 
-            //       decoration: BoxDecoration(
-            //         color: primary,
-            //       ),
-            //     ),
-            //   ),
           ],
         ),
       ),
