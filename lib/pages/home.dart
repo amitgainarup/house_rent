@@ -61,8 +61,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
               CircleAvatar(
-                backgroundImage: NetworkImage(
-                    'https://pixel-vault.s3-accelerate.amazonaws.com/6176cb30236cff00164c592f/6176cbd6236cff00164c5936_o.jpg'),
+                backgroundImage: AssetImage('assets/images/10.jpg'),
               ),
             ],
           ),
