@@ -1,3 +1,4 @@
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 List populars = [
   {
@@ -100,5 +101,24 @@ List recents = [
 ];
 
 List categories = [
-
+{
+    "name" : "House",
+    "icon" :  FontAwesomeIcons.home,
+  },
+  {
+    "name" : "Apartment",
+    "icon" :  FontAwesomeIcons.city,
+  },
+  {
+    "name" : "Hotel",
+    "icon" :  FontAwesomeIcons.hotel,
+  },
+  {
+    "name" : "Villa",
+    "icon" :  FontAwesomeIcons.storeAlt,
+  },
+  {
+    "name" : "Building",
+    "icon" :  FontAwesomeIcons.building,
+  },
 ];

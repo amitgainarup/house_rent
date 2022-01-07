@@ -4,6 +4,7 @@ import 'package:house_rent/theme/color.dart';
 import 'package:house_rent/utils/data.dart';
 import 'package:house_rent/widgets/category_item.dart';
 import 'package:house_rent/widgets/custom_textbox.dart';
+import 'package:house_rent/widgets/icon_box.dart';
 import 'package:house_rent/widgets/property_item.dart';
 import 'package:house_rent/widgets/recent_item.dart';
 import 'package:house_rent/widgets/recommend_item.dart';
@@ -86,7 +87,9 @@ class _HomePageState extends State<HomePage> {
                     child: CustomTextBox(
                   hint: "Search",
                   prefix: Icon(Icons.search, color: Colors.grey),
-                )),
+                ),),
+                SizedBox(width: 10,),
+                  IconBox(child: Icon(Icons.settings_voice, color: Colors.white), bgColor: secondary, radius: 10,)
               ],
             ),
           ),
@@ -106,7 +109,7 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  "Popular",
+                  "Near from you",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                 ),
                 Text(
@@ -129,7 +132,7 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  "Recommended",
+                  "Best for you",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                 ),
                 Text(
