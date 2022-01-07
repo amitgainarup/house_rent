@@ -78,21 +78,21 @@ List recommended = [
 
 List recents = [
   {
-    "image": "assets/images/7.jpg",
+    "image": "https://images.unsplash.com/photo-1549517045-bc93de075e53?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "name": "A5",
     "price": "TK-3,000",
     "location": "Model School Road, Gopalganj",
     "is_favorited": false,
   },
   {
-    "image": "assets/images/8.jpg",
+    "image": "https://images.unsplash.com/photo-1592595896616-c37162298647?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "name": "A6",
     "price": "TK-2,500",
     "location": "Model School Road, Gopalganj",
     "is_favorited": false,
   },
   {
-    "image": "assets/images/9.jpg",
+    "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "name": "S King",
     "price": "TK-6,000",
     "location": "Model School Road, Gopalganj",
